@@ -1,0 +1,13 @@
+{
+    "name": "orocos_kdl",
+    "version": "3.13.1",
+    "keywords": "orocos kinematics dynamics",
+    "description": "kinematics dynamics library",
+    "frameworks": ["arduino"],
+    "platforms": ["atmelsam"],
+    "build": {
+        "flags": [
+            "-I include/"
+        ]
+    }
+}
