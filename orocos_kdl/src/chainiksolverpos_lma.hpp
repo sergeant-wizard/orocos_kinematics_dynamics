@@ -94,7 +94,7 @@ public:
      */
     ChainIkSolverPos_LMA(
     		const KDL::Chain& _chain,
-    		const Eigen::Matrix<double,6,1>& _L,
+    		const Eigen::Matrix<double,6,1>& _LL,
     		double _eps=1E-5,
     		int _maxiter=500,
     		double _eps_joints=1E-15
